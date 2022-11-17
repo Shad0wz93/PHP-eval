@@ -1,11 +1,3 @@
 <?php
 
-$dsn = 'mysql:livre_eval_php;host=localhost';
-$utilisateur = 'root';
-$password = 'root';
-
-
-$dbh = new PDO($dsn, $utilisateur, $password);
-
-
-?>
+$dbh = new PDO('mysql:host=localhost;dbname=livre_eval_php', 'root', 'root');
